@@ -1,0 +1,15 @@
+> setwd("E:/WCC 2020-2023/Semester-4/Statistical Methods")
+> read.csv("msme_scheme.csv")
+> my.xldataset <- read.csv("msme_scheme.csv")
+> mean(my.xldataset$TOTAL)
+[1] 9569.692
+> var(my.xldataset$TOTAL)
+[1] 219126144
+> mean(my.xldataset$SMALL)
+[1] 377.5192
+> var(my.xldataset$SMALL)
+[1] 737768.6
+> mean(my.xldataset$MICRO)
+[1] 9157.962
+> var(my.xldataset$MICRO)
+[1] 191994776
