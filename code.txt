@@ -1,0 +1,134 @@
+> setwd("E:/WCC 2020-2023/Semester-4/Statistical Methods")
+> read.csv("district_level_service_msme.csv")
+           STATE_NAME Lg_Dist_Code           DISTRICT_NAME MICRO SMALL MEDIUM Total Last_Updated
+1      ANDHRA PRADESH          745   Alluri Sitharama Raju     1     0      0     1   23-04-2022
+2      ANDHRA PRADESH          744              Anakapalli    22     0      0    22   23-04-2022
+3      ANDHRA PRADESH          502              ANANTHAPUR 11885   312     11 12208   23-04-2022
+4      ANDHRA PRADESH          753               Annamayya    13     0      0    13   23-04-2022
+5      ANDHRA PRADESH          750                 Bapatla     9     1      0    10   23-04-2022
+6      ANDHRA PRADESH          503                 CHITOOR 12515   436     19 12970   23-04-2022
+7      ANDHRA PRADESH          505           EAST GODAVARI 16222   758     51 17031   23-04-2022
+8      ANDHRA PRADESH          748                   Eluru    32     1      0    33   23-04-2022
+9      ANDHRA PRADESH          506                  GUNTUR 15128   740     61 15929   23-04-2022
+10     ANDHRA PRADESH          746                Kakinada    37     1      0    38   23-04-2022
+11     ANDHRA PRADESH          747               Konaseema    16     0      0    16   23-04-2022
+12     ANDHRA PRADESH          510                 KRISHNA 19932  1169     85 21186   23-04-2022
+13     ANDHRA PRADESH          511                 KURNOOL 12839   418     16 13273   23-04-2022
+14     ANDHRA PRADESH          755                 Nandyal    21     0      0    21   23-04-2022
+15     ANDHRA PRADESH          749                     NTR    30     1      0    31   23-04-2022
+16     ANDHRA PRADESH          751                 Palnadu    19     0      0    19   23-04-2022
+17     ANDHRA PRADESH          743    Parvathipuram Manyam     3     0      0     3   23-04-2022
+18     ANDHRA PRADESH          517                PRAKASAM  8829   284      8  9121   23-04-2022
+19     ANDHRA PRADESH          515            SPSR NELLORE 10270   429     20 10719   23-04-2022
+20     ANDHRA PRADESH          754          Sri Sathya Sai    20     0      0    20   23-04-2022
+21     ANDHRA PRADESH          519              SRIKAKULAM  4232   149      7  4388   23-04-2022
+22     ANDHRA PRADESH          752                Tirupati    25     1      0    26   23-04-2022
+23     ANDHRA PRADESH          520           VISAKHAPATNAM 17062  1061     89 18212   23-04-2022
+24     ANDHRA PRADESH          521            VIZIANAGARAM  4381   161      6  4548   23-04-2022
+25     ANDHRA PRADESH          523           WEST GODAVARI 14353   725     77 15155   23-04-2022
+26     ANDHRA PRADESH          504                   Y.S.R  8642   321     16  8979   23-04-2022
+27  ARUNACHAL PRADESH          628                   ANJAW    24     0      0    24   23-04-2022
+28  ARUNACHAL PRADESH          229               CHANGLANG    87     0      0    87   23-04-2022
+29  ARUNACHAL PRADESH          230           DIBANG VALLEY     7     0      0     7   23-04-2022
+30  ARUNACHAL PRADESH          231             EAST KAMENG    27     0      0    27   23-04-2022
+31  ARUNACHAL PRADESH          232              EAST SIANG   102     2      0   104   23-04-2022
+32  ARUNACHAL PRADESH          718                   KAMLE     9     0      0     9   23-04-2022
+33  ARUNACHAL PRADESH          677               KRA DAADI    15     0      0    15   23-04-2022
+34  ARUNACHAL PRADESH          233            KURUNG KUMEY    25     1      0    26   23-04-2022
+35  ARUNACHAL PRADESH          724                LEPARADA     9     0      0     9   23-04-2022
+36  ARUNACHAL PRADESH          234                   LOHIT    98     0      0    98   23-04-2022
+37  ARUNACHAL PRADESH          666                LONGDING    17     0      0    17   23-04-2022
+38  ARUNACHAL PRADESH          235     LOWER DIBANG VALLEY    43     1      0    44   23-04-2022
+39  ARUNACHAL PRADESH          719             LOWER SIANG    26     0      0    26   23-04-2022
+40  ARUNACHAL PRADESH          236         LOWER SUBANSIRI   176     2      0   178   23-04-2022
+41  ARUNACHAL PRADESH          678                  NAMSAI    41     0      0    41   23-04-2022
+42  ARUNACHAL PRADESH          723           PAKKE KESSANG     5     0      0     5   23-04-2022
+43  ARUNACHAL PRADESH          237              PAPUM PARE   731    47      9   787   23-04-2022
+44  ARUNACHAL PRADESH          725                SHI YOMI    12     0      0    12   23-04-2022
+45  ARUNACHAL PRADESH          679                   SIANG    12     0      0    12   23-04-2022
+46  ARUNACHAL PRADESH          238                  TAWANG    41     2      0    43   23-04-2022
+47  ARUNACHAL PRADESH          239                   TIRAP    38     1      0    39   23-04-2022
+48  ARUNACHAL PRADESH          240             UPPER SIANG    19     1      0    20   23-04-2022
+49  ARUNACHAL PRADESH          241         UPPER SUBANSIRI    37     3      0    40   23-04-2022
+50  ARUNACHAL PRADESH          242             WEST KAMENG   116     5      0   121   23-04-2022
+51  ARUNACHAL PRADESH          243              WEST SIANG    45     3      0    48   23-04-2022
+52              ASSAM          739                  BAJALI    40     1      0    41   23-04-2022
+53              ASSAM          616                   BAKSA   924     9      1   934   23-04-2022
+54              ASSAM          280                 BARPETA  2135    62      4  2201   23-04-2022
+55              ASSAM          705               Biswanath   844    21      0   865   23-04-2022
+56              ASSAM          281              BONGAIGAON  1092    52      4  1148   23-04-2022
+57              ASSAM          282                  CACHAR  3343   135      7  3485   23-04-2022
+58              ASSAM          708               CHARAIDEO   364    10      0   374   23-04-2022
+59              ASSAM          612                 CHIRANG   654    16      4   674   23-04-2022
+60              ASSAM          283                 DARRANG  4761    55      0  4816   23-04-2022
+61              ASSAM          284                 DHEMAJI  1634    26      1  1661   23-04-2022
+62              ASSAM          285                  DHUBRI  1422    43      2  1467   23-04-2022
+63              ASSAM          286               DIBRUGARH  3129   163      4  3296   23-04-2022
+64              ASSAM          299              DIMA HASAO   192     0      0   192   23-04-2022
+65              ASSAM          287                GOALPARA  1119    35      2  1156   23-04-2022
+66              ASSAM          288                GOLAGHAT  2183    54      1  2238   23-04-2022
+67              ASSAM          289              HAILAKANDI   855    13      0   868   23-04-2022
+68              ASSAM          709                   HOJAI   843    31      1   875   23-04-2022
+69              ASSAM          290                  JORHAT  1941   141      7  2089   23-04-2022
+70              ASSAM          291                  KAMRUP  3138   100     13  3251   23-04-2022
+71              ASSAM          618            KAMRUP METRO  8639  1139    130  9908   23-04-2022
+72              ASSAM          292          KARBI-ANGELONG   823    15      0   838   23-04-2022
+73              ASSAM          293               KARIMGANJ  1544    50      1  1595   23-04-2022
+74              ASSAM          294               KOKRAJHAR   724    24      0   748   23-04-2022
+75              ASSAM          295               LAKHIMPUR  1719    48      3  1770   23-04-2022
+76              ASSAM          706                  MAJULI   196     2      0   198   23-04-2022
+77              ASSAM          296                MARIGAON  1355    15      1  1371   23-04-2022
+78              ASSAM          297                  NAGAON  2480    84      4  2568   23-04-2022
+79              ASSAM          298                 NALBARI  1264    33      1  1298   23-04-2022
+80              ASSAM          300               SIVASAGAR  1380    87      5  1472   23-04-2022
+81              ASSAM          301                SONITPUR  2167    72     12  2251   23-04-2022
+82              ASSAM          707 SOUTH SALMARA MANCACHAR   121     2      0   123   23-04-2022
+83              ASSAM          302                TINSUKIA  2644   127      9  2780   23-04-2022
+84              ASSAM          617                UDALGURI   910    15      0   925   23-04-2022
+85              ASSAM          710      WEST KARBI ANGLONG   152     0      0   152   23-04-2022
+86              BIHAR          188                  ARARIA  5025   139      3  5167   23-04-2022
+87              BIHAR          611                   ARWAL   791    19      0   810   23-04-2022
+88              BIHAR          189              AURANGABAD  3339    70      4  3413   23-04-2022
+89              BIHAR          190                   BANKA  3765    35      1  3801   23-04-2022
+90              BIHAR          191               BEGUSARAI  6988   178     14  7180   23-04-2022
+91              BIHAR          192               BHAGALPUR  8163   188      9  8360   23-04-2022
+92              BIHAR          193                 BHOJPUR  3819    79      2  3900   23-04-2022
+93              BIHAR          194                   BUXAR  2481    58      2  2541   23-04-2022
+94              BIHAR          195               DARBHANGA  7665   157      5  7827   23-04-2022
+95              BIHAR          196                    GAYA  8193   164     10  8367   23-04-2022
+96              BIHAR          197               GOPALGANJ  4450    70      1  4521   23-04-2022
+97              BIHAR          198                   JAMUI  3795    69      0  3864   23-04-2022
+98              BIHAR          199               JEHANABAD  1637    18      0  1655   23-04-2022
+99              BIHAR          200         KAIMUR (BHABUA)  1792    40      1  1833   23-04-2022
+100             BIHAR          201                 KATIHAR  5850   153      5  6008   23-04-2022
+101             BIHAR          202                KHAGARIA  3543    74      2  3619   23-04-2022
+102             BIHAR          203              KISHANGANJ  2662    56      4  2722   23-04-2022
+103             BIHAR          204              LAKHISARAI  1766    29      0  1795   23-04-2022
+104             BIHAR          205               MADHEPURA  3303    77      3  3383   23-04-2022
+105             BIHAR          206               MADHUBANI  8151   107      1  8259   23-04-2022
+106             BIHAR          207                  MUNGER  3182    27      0  3209   23-04-2022
+107             BIHAR          208             MUZAFFARPUR 14291   424     21 14736   23-04-2022
+108             BIHAR          209                 NALANDA  5167   107      2  5276   23-04-2022
+109             BIHAR          210                  NAWADA  3564    69      2  3635   23-04-2022
+110             BIHAR          211     PASHCHIM  CHAMPARAN  6046   129      1  6176   23-04-2022
+111             BIHAR          212                   PATNA 31118  1158    110 32386   23-04-2022
+112             BIHAR          213        PURBI  CHAMPARAN 10509   195      5 10709   23-04-2022
+113             BIHAR          214                  PURNIA  8523   311     29  8863   23-04-2022
+114             BIHAR          215                  ROHTAS  4992   113      4  5109   23-04-2022
+115             BIHAR          216                 SAHARSA  3509    82      3  3594   23-04-2022
+116             BIHAR          217              SAMASTIPUR  9409   178      6  9593   23-04-2022
+117             BIHAR          218                   SARAN  6370   109      2  6481   23-04-2022
+118             BIHAR          219              SHEIKHPURA  1383    21      0  1404   23-04-2022
+119             BIHAR          220                 SHEOHAR  1389    12      0  1401   23-04-2022
+120             BIHAR          221               SITAMARHI  6067   102      3  6172   23-04-2022
+121             BIHAR          222                   SIWAN  5214   100      3  5317   23-04-2022
+122             BIHAR          223                  SUPAUL  3775    60      4  3839   23-04-2022
+123             BIHAR          224                VAISHALI  8356   125      4  8485   23-04-2022
+124      CHHATTISGARH          646                   BALOD  1650    35      3  1688   23-04-2022
+125      CHHATTISGARH          644             BALOD BAZAR  3282    64      1  3347   23-04-2022
+ [ reached 'max' / getOption("max.print") -- omitted 630 rows ]
+> my.xldataset <- read.csv("district_level_service_msme.csv")
+> mean(my.xldataset$Total)
+[1] 7547.372
+> var(my.xldataset$Total)
+[1] 196848165
